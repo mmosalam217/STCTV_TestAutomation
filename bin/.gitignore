@@ -1,0 +1,8 @@
+allure-results
+log4j2
+target
+test-output
+log4j2-testlogs-*
+.project
+.settings
+.classpath
