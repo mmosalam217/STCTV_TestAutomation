@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="STCTV Subscription">
-  <test name="STCTV Subscription KSA">
+  <test name="STCTV Subscription">
+    <classes>
+      <class name="stc.runners.CucumberRunnerTest"/>
+    </classes>
+  </test>
+  <!-- 
+    <test name="STCTV Subscription KSA">
     <classes>
       <class name="stc.specs.StcSaudiArabiaTest"/>
     </classes>
   </test>
-  
-  <test name="STCTV Subscription Kuwait">
+    <test name="STCTV Subscription Kuwait">
     <classes>
       <class name="stc.specs.StcKuwaitTest"/>
     </classes>
@@ -18,4 +23,6 @@
       <class name="stc.specs.StcBahrainTest"/>
     </classes>
   </test>
+  -->
+
 </suite>
